@@ -1,2 +1,2 @@
-# ecma-script
+# ecmascript
 JavaScriptチートシート
