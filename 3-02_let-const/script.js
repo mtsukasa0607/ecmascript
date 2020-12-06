@@ -3,6 +3,8 @@
 let  ans = window.prompt('ヘルプを確認しますか？');
 if(ans != null)
 {
-    document.getElementById('let_const').textContent = ans;
+    window.alert('タップしてジャンプ、障害物を避ける');
+    // document.getElementById('let_const').textContent = ans;
 }
+document.getElementById('let_const').textContent = ans;
 console.log(ans);
