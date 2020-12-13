@@ -15,7 +15,7 @@ if(my_ans === num) {
     msg = '0 ~ 5の数字を入力してください。';
 }
 window.alert(msg);
-
+document.getElementById('let_const').textContent = msg;
 console.log(num);
 console.log(my_ans);
 console.log(msg);
