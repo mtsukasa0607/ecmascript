@@ -10,8 +10,10 @@ function point (num, digit) {
 }
 
 let agree = Cookies.get('cookie-agree');
+let panel = document.getElementById('privacy-panel');
 if(agree === 'yes') {
     console.log('クッキーを確認しました');
+    document.body.removeChild(panel);
 } else {
     console.log('クッキーを確認できません');
     document.getElementById('agreebtn').onclick = function() {
